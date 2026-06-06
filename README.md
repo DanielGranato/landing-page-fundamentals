@@ -1,5 +1,5 @@
 # Responsive Landing Page
-This is my first responsive landing page project, built during an HTML and CSS course.
+A challenge to convert a desktop-only website into a mobile-responsive project, with section images implemented as background images. 
 
 ## About the project
 The project consists of a responsive landing page for an educational service platform, including pricing plans and subscription links.
