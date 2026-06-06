@@ -1,4 +1,4 @@
-Responsive Landing Page
+##Responsive Landing Page##
 This is my first responsive landing page project, built during an HTML and CSS course.
 
 About the project
