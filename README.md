@@ -12,4 +12,4 @@ The project consists of a responsive landing page for an educational service pla
 This project was created to practice responsive design and strengthen my front-end development fundamentals.
 
 ## Status
-Completed as part of my HTML/CSS
+Completed as part of my HTML/CSS learning journey.
