@@ -1,36 +1,34 @@
 * {
-        margin: 0;
-        padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
-        --branco-principal: #FFFFFF;
-        --cinza-secundario: #C0C0C0;
-        --botao-azul: #167BF7;
-        --cor-de-fundo: #00030C;
-        --fonte-principal: 'Inter'
-
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter'
 }
 
 body {
-        background-color: var(--cor-de-fundo);
-        color: var(--branco-principal);
-        font-family: var(--fonte-principal);
-        font-size: 16px;
-        font-weight: 400;
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.principal {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        margin: 0 0 0 6em;
-        height: 100vh; 
-        background-image: url("assets/Background.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        align-items: center;
-        text-align: center;
-        
+.principal_section {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh; 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 0 0 6em; 
+    align-items: center;
+    text-align: center;
 }
 
 .container__botao {
@@ -41,7 +39,6 @@ body {
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
-
 }
 
 .botao_secundario {
@@ -57,25 +54,23 @@ body {
 .container__titulo {
     font-size: 28px;
     font-weight: 700;
-    
 }
 
 .container__imagem {
     margin: 1em 0 2em 0;
 }
 
-.principal2 {
-        display: grid;
-        direction: rtl;
-        grid-template-columns: 50% 50%;
-        margin: 5em 6em 0 10em;
-        height: 100vh; 
-        background-image: url(assets/Plataformas.png);
-        background-repeat: no-repeat;
-        background-size: 45%;
-        align-items: center;
-        text-align: left;
-        margin-bottom: -10%;
+.section2 {
+    display: grid;
+    direction: rtl;
+    grid-template-columns: 50% 50%;
+    margin: 0 6em 0 10em;
+    height: 100vh; 
+    background-image: url(img/Plataformas.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    align-items: center;
+    text-align: left;
 }
 
 .container__titulo2 {
@@ -89,23 +84,22 @@ body {
     margin-left: 10%;
 }
 
-.principal3 {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        margin: 0 6em 0 10em;
-        height: 100vh; 
-        background-image: url(assets/Telas.png);
-        background-repeat: no-repeat;
-        background-size: 45%;
-        background-position: right;
-        align-items: center;
-        text-align: left;
+.section3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 6em 0 10em;
+    height: 100vh; 
+    background-image: url(img/Telas.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: right;
+    align-items: center;
+    text-align: left;
 }
 
 .container__texto3 {
     margin-left: 1%;
     margin-bottom: 35px;
-
 }
 
 .container__botao3 {
@@ -115,21 +109,19 @@ body {
     color: var(--branco-principal);
     text-decoration: none;
     margin-bottom: 1em;
-
 }
 
-.principal4 {
-        display: grid;
-        direction: rtl;
-        grid-template-columns: 50% 50%;
-        margin: 0 6em 0 8em;
-        height: 100vh; 
-        background-image: url(assets/Notebook.png);
-        background-repeat: no-repeat;
-        background-size: 50%;
-        align-items: center;
-        text-align: left;
-
+.section4 {
+    display: grid;
+    direction: rtl;
+    grid-template-columns: 50% 50%;
+    margin: 0 6em 0 8em;
+    height: 100vh; 
+    background-image: url(img/Notebook.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    align-items: center;
+    text-align: left;
 }
 
 .container__texto4 {
@@ -138,30 +130,30 @@ body {
     padding-bottom: 50%;
 }
 
-.container__titulo5 {
+.titulo_dispositivos {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 45px;
     margin-top: -10%;
     text-align: center;
+    margin: 0 25px 25px 25px;
 }
 
-.images {
+.dispositivos {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin: 0 25px 25px 25px;
 }
 
-.rodape {
+.container__dispositivos {
+    margin: 1em 0 2em 0;
+}
+
+.footer {
     justify-items: center;
     text-align: center;
     margin-top: 13%;
-}
-
-.link_rodape {
-    text-decoration: none;
-    margin: 8px;
-    color: gray;
 }
 
 .links {
@@ -169,11 +161,17 @@ body {
     color: gray
 }
 
-.cinza {
+.link_footer {
+    text-decoration: none;
+    margin: 8px;
     color: gray;
 }
 
 .rights {
+    color: gray;
+}
+
+.legal {
     font-size: 12px;
     margin-top: 30px;
     margin-bottom: 8%;
@@ -183,26 +181,26 @@ body {
 }
 
 @media (max-width: 1199px) {
-    .principal {
+
+    .principal_section {
         grid-template-columns: 1fr;
         margin: 5%;
         height: auto;
         padding-top: 400px;
-        background-image: url("assets/Background2.png");
+        background-image: url("img/Background2.png");
         background-size: 70%;
         background-position: top center;
     }
  
-    .principal2 {
+    .section2 {
         grid-template-columns: 1fr;
         margin: 0;
         padding-top: 400px;
         height: 550px;
         direction: ltr;
-        background-size: 70%;
+        background-size: 60%;
         background-position: top center;
         text-align: center;
-        margin-bottom: 0;
     }
  
     .container__titulo2 {
@@ -216,15 +214,14 @@ body {
         margin-right: 5%;
     }
  
-    .principal3 {
+    .section3 {
         grid-template-columns: 1fr;
         margin: 0;
-        padding-top: 400px;
+        padding-top: 300px;
         height: 400px;
-        background-size: 70%;
+        background-size: 60%;
         background-position: top center;
         text-align: center;
-        margin-bottom: 0;
     }
  
     .container__texto3 {
@@ -232,16 +229,15 @@ body {
         margin-right: 5%;
     }
  
-    .principal4 {
+    .section4 {
         grid-template-columns: 1fr;
-        margin: 0;
-        padding-top: 400px;
+        margin: 0 0 150px 0;
+        padding-top: 300px;
         height: 200px;
         direction: ltr;
-        background-size: 70%;
+        background-size: 60%;
         background-position: top center;
         text-align: center;
-        margin-bottom: 150px;
     }
  
     .container__texto4 {
@@ -250,14 +246,21 @@ body {
         padding-bottom: 0;
     }
  
-    .container__titulo5 {
+    .dispositivos {
         font-size: 32px;
-        margin-top: 0;
-        margin-bottom: 25px;
+        margin: 0 25px 200px 25px;
+    }
+
+    .container__dispositivos {
+        width: 90%;
     }
  
     .container__titulo {
         font-size: 24px;
+    }
+
+    .titulo_dispositivos {
+        font-size: 40px;
     }
 
  
@@ -266,155 +269,123 @@ body {
         margin-right: 1em;
     }
  
-    .rodape {
+    .footer {
         margin-top: 5%;
         margin-left: 10%;
         margin-right: 10%;
     }
 }
  
-/* Tablets pequenas e celulares grandes (máximo 768px) */
 @media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
- 
-    .principal {
+    
+    .principal_section {
+        grid-template-columns: 1fr;
+        margin: 5%;
+        height: auto;
         padding-top: 300px;
-        background-position: center top;
+        background-image: url("img/Background2.png");
+        background-size: 70%;
+        background-position: top center;
     }
- 
-    .principal2 {
-        padding-top: 300px;
-        background-position: center top;
+    .section2 {
+        grid-template-columns: 1fr;
+        margin: 100px 0 0 0;
+        padding-top: 200px;
+        height: 550px;
+        direction: ltr;
+        background-size: 60%;
+        background-position: top center;
+        text-align: center;
     }
- 
-    .principal3 {
-        padding-top: 220px;
-        background-position: center top;
+    .section3 {
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding-top: 200px;
+        height: 300px;
+        background-size: 60%;
+        background-position: top center;
+        text-align: center;
     }
- 
-    .principal4 {
-        padding-top: 250px;
-        background-position: center top;
+    .section4 {
+        grid-template-columns: 1fr;
+        margin: 100px 0 150px 0;
+        padding-top: 200px;
+        height: 200px;
+        direction: ltr;
+        background-size: 60%;
+        background-position: top center;
+        text-align: center;
     }
- 
-    .container__titulo {
+    .titulo_dispositivos {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 45px;
+        margin-top: -10%;
+        text-align: center;
+        margin: 0 25px 25px 25px;
+    }
+    .dispositivos {
+        margin-bottom: 200px;
+    }
+    .mobile {
         font-size: 20px;
     }
  
-    .container__titulo2 {
-        font-size: 24px;
-    }
- 
-    .container__titulo5 {
-        font-size: 24px;
-    }
- 
-    .container__botao,
-    .container__botao3 {
-        padding: 0.8em;
-        font-size: 14px;
-    }
- 
-    .container__aviso {
-        font-size: 11px;
-    }
-
-    .images {
-        flex-direction: column;
-    }
- 
-    .rights {
-        font-size: 11px;
-        margin-bottom: 5%;
-    }
- 
-    .rodape {
-        margin-top: 8%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 20px;
-    }
 }
  
-/* Celulares (máximo 480px) */
 @media (max-width: 480px) {
-    body {
-        font-size: 13px;
-    }
- 
-    .principal {
+
+    .principal_section {
+        grid-template-columns: 1fr;
+        margin: 5%;
+        height: auto;
         padding-top: 200px;
-        background-position: center top;
-        margin-bottom: 5em;
+        background-image: url("img/Background2.png");
+        background-size: 70%;
+        background-position: top center;
     }
- 
-    .principal2 {
-        padding-top: 80px;
-        background-position: center top;
-    }
- 
-    .principal3 {
-        padding-top: 80px;
-        background-position: center top;
-    }
- 
-    .principal4 {
+    .section2 {
+        grid-template-columns: 1fr;
+        margin: 100px 0 0 0;
         padding-top: 100px;
-        background-position: center top;
+        height: 350px;
+        direction: ltr;
+        background-size: 60%;
+        background-position: top center;
+        text-align: center;
     }
- 
-    .container__titulo {
-        font-size: 18px;
+    .section3 {
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding-top: 100px;
+        height: 300px;
+        background-size: 60%;
+        background-position: top center;
+        text-align: center;
     }
- 
-    .container__titulo2,
-    .container__titulo5 {
-        font-size: 20px;
-        margin-bottom: 15px;
+    .section4 {
+        grid-template-columns: 1fr;
+        margin: 50px 0 100px 0;
+        padding-top: 100px;
+        height: 200px;
+        direction: ltr;
+        background-size: 60%;
+        background-position: top center;
+        text-align: center;
     }
- 
-    .container__texto,
-    .container__texto3,
-    .container__texto4 {
-        margin-left: 0;
-        margin-bottom: 1em;
+    .titulo_dispositivos {
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 45px;
+        margin-top: -10%;
+        text-align: center;
+        margin: 0 25px 25px 25px;
     }
- 
-    .container__botao,
-    .container__botao3 {
-        padding: 0.7em;
-        font-size: 13px;
+    .dispositivos {
+        margin-bottom: 100px;
     }
- 
-    .container__imagem {
-        margin: 0.5em 0 1em 0;
+    .mobile {
+        font-size: 16px;
     }
- 
-    .container__imagem img {
-        max-width: 100%;
-        height: auto;
-    }
- 
-    .images img {
-        max-width: 100%;
-        height: auto;
-    }
- 
-    .link_rodape {
-        margin: 5px;
-        font-size: 12px;
-    }
- 
-    .rights {
-        font-size: 10px;
-        margin-left: 0.5em;
-        margin-right: 0.5em;
-        margin-bottom: 3%;
-    }
- 
-    .rodape {
-        margin-top: 10%;
-    }
+    
 }
