@@ -342,6 +342,10 @@ body {
     .mobile {
         font-size: 20px;
     }
+    .footer {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
  
 }
  
@@ -396,14 +400,12 @@ body {
     .dispositivos {
         margin-bottom: 100px;
     }
-    .links {
-        margin: 0 20px 28px 20px;
-        color: gray;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px 20px;
+
+    .footer {
+        margin-right: 10px;
+        margin-left: 10px;
     }
+    
     .mobile {
         font-size: 16px;
     }
