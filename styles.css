@@ -157,8 +157,12 @@ body {
 }
 
 .links {
-    margin-bottom: 25px;
-    color: gray
+    margin: 0 25px 28px 25px;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px 32px;
 }
 
 .link_footer {
@@ -327,6 +331,14 @@ body {
     .dispositivos {
         margin-bottom: 200px;
     }
+    .links {
+        margin: 0 20px 28px 20px;
+        color: gray;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 20px;
+    }
     .mobile {
         font-size: 20px;
     }
@@ -383,6 +395,14 @@ body {
     }
     .dispositivos {
         margin-bottom: 100px;
+    }
+    .links {
+        margin: 0 20px 28px 20px;
+        color: gray;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 20px;
     }
     .mobile {
         font-size: 16px;
