@@ -1,5 +1,5 @@
 # Responsive Landing Page
-A challenge to convert a desktop-only website into a mobile-responsive project, with section images implemented as background images. 
+A challenge to convert a desktop-only website into a mobile-responsive project, with section images implemented as background images. There is also the implementation of CSS variables (custom properties).
 
 ## About the project
 The project consists of a responsive landing page for an educational service platform, including pricing plans and subscription links.
